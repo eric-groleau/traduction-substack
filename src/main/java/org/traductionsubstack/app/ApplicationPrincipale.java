@@ -9,7 +9,7 @@ import java.nio.file.Path;
 public class ApplicationPrincipale {
 
     public static void main(String[] args) throws Exception {
-        String urlArticle = "https://prussiagate.substack.com/p/urania";
+        String urlArticle = "https://prussiagate.substack.com/p/table-of-contents";
 
         GestionnaireStockageArticle gestionnaire =
                 new GestionnaireStockageArticle(Path.of("donnees/brut"));
