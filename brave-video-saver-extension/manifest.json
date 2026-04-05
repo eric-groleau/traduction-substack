@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Brave Video Saver",
+  "version": "0.1.0",
+  "description": "Envoie l'URL vidéo de l'onglet actif à un hôte natif qui utilise ffmpeg.",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "nativeMessaging"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Sauvegarder la vidéo",
+    "default_popup": "popup.html"
+  }
+}
