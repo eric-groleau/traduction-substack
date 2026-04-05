@@ -1,0 +1,9 @@
+{
+  "name": "com.example.brave_video_saver",
+  "description": "Native host pour Brave Video Saver",
+  "path": "/ABSOLUTE/PATH/TO/native_host.py",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://__EXTENSION_ID__/"
+  ]
+}

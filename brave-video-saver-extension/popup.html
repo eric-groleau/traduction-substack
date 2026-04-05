@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Brave Video Saver</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Sauvegarder la vidéo</h1>
+      <label for="outputDir">Répertoire local (optionnel)</label>
+      <input id="outputDir" type="text" placeholder="/chemin/vers/videos" />
+      <button id="downloadBtn">Lancer ffmpeg</button>
+      <p id="status" role="status" aria-live="polite"></p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
